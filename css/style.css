@@ -1,5 +1,54 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap&subset=korean');
 
+@media all and (min-width:1200px) {
+    body {
+        font-size:18px;
+    }
+    .map {
+        width:70%;
+        height:700px;
+        margin:0 auto;
+    }
+
+    .content-area {
+        margin:0 20% 0 20%
+    }
+}
+
+@media all and (max-width:1199px) and (min-width:600px) {
+    body {
+        font-size:16px;
+    }
+    .map {
+        width:80%;
+        height:500px;
+        margin:0 auto;
+    }
+
+    .content-area {
+        margin:0 10% 0 10%
+    }
+}
+
+@media all and (max-width:599px) and (min-width:320px) {
+    body {
+        font-size:12px;
+    }
+    .map {
+        width:90%;
+        height:400px;
+        margin:0 auto;
+    }
+
+    .content-area {
+        margin:0 5% 0 5%
+    }
+}
+
+.noto-sans-kr {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
 ul.nav li.dropdown:hover > ul.dropdown-menu {
-    display: block;
+    display:block;
 }
