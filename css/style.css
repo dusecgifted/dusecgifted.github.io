@@ -4,6 +4,16 @@
     body {
         font-size:18px;
     }
+
+    .nav-logo {
+        height:100%;
+        width:100%;
+    }
+
+    .nav-textsize {
+        font-size: 16px;
+    }
+
     .map {
         width:70%;
         height:700px;
@@ -15,10 +25,45 @@
     }
 }
 
-@media all and (max-width:1199px) and (min-width:600px) {
+@media all and (max-width:1199px) and (min-width:991px) {
     body {
         font-size:16px;
     }
+
+    .nav-logo {
+        height:100%;
+        width:100%;
+    }
+
+    .nav-textsize {
+        font-size: 16px;
+    }
+
+    .map {
+        width:80%;
+        height:500px;
+        margin:0 auto;
+    }
+
+    .content-area {
+        margin:0 10% 0 10%
+    }
+}
+
+@media all and (max-width:990px) and (min-width:600px) {
+    body {
+        font-size:16px;
+    }
+
+    .nav-logo {
+        height:250%;
+        width:250%;
+    }
+
+    .nav-textsize {
+        font-size: 30px;
+    }
+
     .map {
         width:80%;
         height:500px;
@@ -34,6 +79,16 @@
     body {
         font-size:12px;
     }
+
+    .nav-logo {
+        height:250%;
+        width:250%;
+    }
+
+    .nav-textsize {
+        font-size: 30px;
+    }
+
     .map {
         width:90%;
         height:400px;
